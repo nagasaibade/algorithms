@@ -39,7 +39,7 @@ public class ShellSort {
 
 
         for (int i = 0; i < intArray.length; i++) {
-            //testing commit 3
+            //testing commit 4
             System.out.println(intArray[i]);
         }
     }

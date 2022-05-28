@@ -17,6 +17,7 @@ public class ShellSort {
          then array will be sorted
          */
 
+
         for (int gap = intArray.length/2; gap >= 1; gap /= 2) {
 
             for (int i = gap; i < intArray.length ; i++) {

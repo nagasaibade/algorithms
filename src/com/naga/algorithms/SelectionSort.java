@@ -8,7 +8,9 @@ public class SelectionSort {
 
         for (int lastUnsortedIndex = intArray.length - 1;lastUnsortedIndex > 0; lastUnsortedIndex--) {
             int maxValueIndex =0;
+            //we will initialize with first unsorted index
 
+            //
             //we need to keep <= because we need to iterate every element upto lastUnsortedIndex(Unlike bubble sort)
             for (int j = 1; j <= lastUnsortedIndex; j++) {
                 if(intArray[j] > intArray[maxValueIndex] )

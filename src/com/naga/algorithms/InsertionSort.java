@@ -7,7 +7,7 @@ public class InsertionSort {
         int[] intArray = {9,8,7,6,5,4,3,2,1,56,55,54,43,32};
         // int[] intArray = {9,8,7,6,5};
         //iterating array from left to right
-        for (int firstUnsortedIndex = 0; firstUnsortedIndex < intArray.length; firstUnsortedIndex++) {
+        for (int firstUnsortedIndex = 1; firstUnsortedIndex < intArray.length; firstUnsortedIndex++) {
             int newElement = intArray[firstUnsortedIndex];
             int j;
 
